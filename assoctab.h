@@ -1,6 +1,6 @@
 #ifndef __ASSOCTAB_H__
 #define __ASSOCTAB_H__
-
+#include <cstring>
 class assocTab
 {
 private:
