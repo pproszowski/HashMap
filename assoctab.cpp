@@ -74,9 +74,7 @@ assocTab & assocTab::operator= (const assocTab & l)
 
 assocTab::node * assocTab::find (const char *key) const
 {
-  node *
-    c =
-    head;
+  node * c = head;
   while (c)
     {
       if (!strcmp (c->key, key))

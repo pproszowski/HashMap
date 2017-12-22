@@ -1,16 +1,15 @@
 #include <iostream>
 using namespace std;
-#include "assoctab.h"
+#include "MyHashMap.hpp"
 
 
-int
-main ()
+int main ()
 {
-  assocTab a1, a2;
-  a1["ala"] = 1;
-  a1["ola"] = 2;
-  cout << a1["ala"] << " " << a1["ola"] << " " << a1["ula"] << endl;
+  MyHashMap a1, a2;
+  a1["aLa"] = 1;
+  a1["Ola"] = 2;
+  cout << a1["AlA"] << " " << a1["OLa"] << " " << a1["uLA"] << endl;
   a2 = a1;
-  a2["ula"]++;
-  cout << a2["ala"] << " " << a2["ola"] << " " << a2["ula"] << endl;
+  a2["ulA"]++;
+  cout << a2["ala"] << " " << a2["oLA"] << " " << a2["ULa"] << endl;
 }
